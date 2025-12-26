@@ -1,6 +1,6 @@
-# 🌐 Trans Fund
+# 🌐 TransFund
 
-**Trans Fund** is a simple and intuitive web platform that allows users to donate and support projects securely using Razorpay. It helps creators and causes raise funds in a transparent and efficient way.
+**TransFund** is a simple and intuitive web platform that allows users to donate and support projects securely using Razorpay. It helps creators and causes raise funds in a transparent and efficient way.
 
 🔗 **Live App:** https://trans-fund-nine.vercel.app/
 
