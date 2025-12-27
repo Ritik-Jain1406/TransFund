@@ -1,6 +1,6 @@
-# 🌐 TransFund
+# 🌐 Trans Fund
 
-**TransFund** is a simple and intuitive web platform that allows users to donate and support projects securely using Razorpay. It helps creators and causes raise funds in a transparent and efficient way.
+**Trans Fund** is a simple and intuitive web platform that allows users to donate and support projects securely using Razorpay. The platform is built to help creators and causes raise funds transparently and efficiently.
 
 🔗 **Live App:** https://trans-fund-nine.vercel.app/
 
@@ -8,30 +8,32 @@
 
 ## 🚀 Features
 
-- 💸 Secure payments with Razorpay  
-- 🧾 Donate to projects easily  
-- ⚡ Real-time order creation using Edge Functions  
+- 💸 Secure online payments with Razorpay  
+- 🧾 Easy donation to listed projects  
+- ⚡ Real-time order creation  
+- 🔐 Firebase backend integration  
 - 🎨 Clean and responsive UI  
-- 🌍 Deployed on Vercel with Supabase backend  
+- 🌍 Deployed on Vercel  
 
 ---
 
 ## 🧠 How It Works
 
-1. User enters donation amount and selects a project.
-2. Frontend calls Supabase Edge Function.
-3. Edge Function creates a Razorpay order.
-4. Order details are sent back to frontend.
-5. User completes payment via Razorpay Checkout.
+1. User selects a project and enters donation amount.
+2. Frontend sends request to backend API.
+3. Backend creates a Razorpay order.
+4. Order details are returned to frontend.
+5. User completes payment using Razorpay Checkout.
+6. Transaction details can be stored in Firebase.
 
 ---
 
 ## 🧩 Tech Stack
 
 - **Frontend:** React / Next.js  
-- **Backend:** Supabase Edge Functions (Deno)  
+- **Backend:** Firebase (Cloud Functions / Firestore)  
 - **Payments:** Razorpay  
-- **Hosting:** Vercel & Supabase  
+- **Hosting:** Vercel & Firebase  
 - **Language:** JavaScript / TypeScript  
 
 ---
